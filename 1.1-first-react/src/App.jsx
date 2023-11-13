@@ -7,7 +7,7 @@ import Lastmain from './components/main/Lastmain';
 
 function App() {
   return (
-    <>
+    <React.Fragment>
     <Header />
     <Firstmain/>
 
@@ -18,7 +18,7 @@ function App() {
       </ol>
       <Lastmain/>
       <Footer/>
-    </>
+    </React.Fragment>
 
   );
 }
