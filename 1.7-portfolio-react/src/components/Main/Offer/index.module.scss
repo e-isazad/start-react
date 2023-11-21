@@ -1,0 +1,48 @@
+main {
+    background-color: #1D809F;
+    padding: 72px 0;
+
+    .headerBox {
+
+        p {
+            color: orange;
+        }
+
+        h2 {
+            color: #fff;
+        }
+    }
+
+    .service {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4%;
+
+        #iconsBox {
+            text-align: center;
+
+            span {
+                background-color: #fff;
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                display: inline-block;
+
+                font-size: 70px;
+                color: #1D809F;
+                text-align: center;
+                padding-top: .5cm;
+
+
+
+            }
+
+            p {
+                color: #fff;
+                margin-right: 20px;
+            }
+
+        }
+
+    }
+}

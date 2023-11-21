@@ -1,0 +1,40 @@
+header {
+    margin-top: 1cm;
+
+    img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .icon {
+
+        position: fixed;
+        top: 2cm;
+        left: 95%;
+        background-color: rgba(0, 0, 0, 0.556);
+        padding: 8px;
+        border-radius: 7px;
+        color: #fff;
+        cursor: pointer;
+        transition: .3s linear;
+        z-index: 999;
+        &:hover{
+            background-color: black;
+        }
+    }
+
+    .button {
+        position: absolute;
+        top: 11cm;
+        left: 17.5cm;
+
+        button {
+            padding: 22px 44px;
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
