@@ -1,0 +1,9 @@
+.headerBox{
+    margin-top: 2cm;
+    display: flex;
+    flex-wrap: wrap;
+    .cardBox{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
